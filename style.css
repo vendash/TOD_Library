@@ -1,0 +1,51 @@
+.section {
+    margin: 30px 0;
+}
+
+.addBook {
+
+}
+
+.bookList {
+
+}
+
+.title {
+    flex: 3;
+}
+
+.author {
+    flex: 3;
+}
+
+.pages {
+    flex: 1;
+}
+
+.isReaded {
+    flex: 1;
+}
+
+.deleteListItem {
+    flex: 1;
+}
+
+.listHeader,
+.bookListItem {
+    padding: 15px 10px;
+    display: flex;
+    
+}
+
+.listHeader {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bookListItem {
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.bookListItem:hover {
+    background-color: lightgrey;
+}
